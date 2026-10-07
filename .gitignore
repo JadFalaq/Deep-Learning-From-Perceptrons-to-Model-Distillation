@@ -1,0 +1,22 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Datasets téléchargés ou trop volumineux
+data/
+chest_xray/
+saved_splits/
+heart_disease_uci*.csv
+
+# Poids de modèles téléchargés automatiquement
+*.pth
+*.h5
+*.keras
+
+# Systèmes
+.DS_Store
+Thumbs.db
+desktop.ini
